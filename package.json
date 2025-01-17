@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "vite",
-    "build": "vite build --base=/periodictablegit/",
+    "build": "vite build --base=/periodictable2/",
     "preview": "vite preview",
     "push": "git add .; git commit -m 'update'; git push;"
   },
