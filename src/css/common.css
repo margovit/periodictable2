@@ -4,7 +4,7 @@ body {
 }
 
 body {
-  background-color: #2a2c29;
+  background-color: #000000;
   margin: 0;
   font-family: Arial;
   overflow: hidden;
@@ -17,7 +17,7 @@ a {
 #info {
   position: absolute;
   width: 100%;
-  color: #ffffff;
+  color: #E15027;
   padding: 5px;
   margin-top: 20px;
   font-family: Arial;
@@ -34,21 +34,22 @@ a {
 }
 
 button {
-  color: rgba(127, 255, 255, 0.75);
+  color: rgba(225, 80, 39, 0.75);
   background: transparent;
-  outline: 1px solid rgba(127, 255, 255, 0.75);
-  border: 1px solid rgba(127, 255, 255, 0.75);
+  outline: 1px solid rgba(225, 80, 39, 0.75);
+  border: 1px solid rgba(225, 80, 39, 0.75);
   padding: 5px 10px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: rgba(0, 255, 255, 0.5);
+  background-color: #E15027;
+  color: #1C1B20;
 }
 
 button:active {
-  color: #000000;
-  background-color: rgba(0, 255, 255, 0.75);
+  color: #E15027;
+  background-color:#1C1B20;
 }
 
 .btn-logout {

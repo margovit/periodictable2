@@ -1,7 +1,7 @@
 .element {
   width: 140px;
   height: 180px;
-  box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.5);
+  box-shadow: 0px 0px 20px rgba(225, 80, 39, 0.5);
   cursor: pointer;
   overflow: hidden;
   border: 1px solid var(--borderMain);
@@ -10,8 +10,8 @@
 }
 
 .element:hover {
-  box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.75);
-  border: 1px solid rgba(127, 255, 255, 0.75);
+  box-shadow: 0px 0px 20px rgba(225, 80, 39, 0.75);
+  border: 1px solid rgba(225, 80, 39, 0.75);
 }
 
 .element .number {
@@ -19,7 +19,7 @@
   top: 20px;
   right: 20px;
   font-size: 20px;
-  color: rgba(127, 255, 255, 0.75);
+  color: rgba(225, 80, 39, 0.75);
 }
 
 .element .name {
@@ -31,11 +31,11 @@
   color: rgba(255, 255, 255, 0.75);
   font-weight: bold;
 
-  -webkit-filter: drop-shadow(0px 0px 20px rgba(0, 255, 255, 0.95));
-  -moz-filter: drop-shadow(0px 0px 20px rgba(0, 255, 255, 0.95));
-  -o-filter: drop-shadow(0px 0px 20px rgba(0, 255, 255, 0.95));
-  -ms-filter: drop-shadow(0px 0px 20px rgba(0, 255, 255, 0.95));
-  filter: drop-shadow(0px 0px 20px rgba(0, 255, 255, 0.95));
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(225, 80, 39, 0.95));
+  -moz-filter: drop-shadow(0px 0px 20px rgba(225, 80, 39, 0.95));
+  -o-filter: drop-shadow(0px 0px 20px rgba(225, 80, 39, 0.95));
+  -ms-filter: drop-shadow(0px 0px 20px rgba(225, 80, 39, 0.95));
+  filter: drop-shadow(0px 0px 20px rgba(225, 80, 39, 0.95));
 }
 
 .element .details {
@@ -44,7 +44,7 @@
   width: 100%;
   font-size: 18px;
   text-align: center;
-  color: rgba(127, 255, 255, 0.75);
+  color: rgba(225, 80, 39, 0.75);
 }
 
 .element.desc::before {
